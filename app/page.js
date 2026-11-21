@@ -62,7 +62,8 @@ function useHomeContent() {
 export default function Home() {
   const { all, by, loading } = useArticles()
   const content = useHomeContent()
-  const hero = content.hero || HOME_DEFAULTS.hero
+  // Hero text is fixed in code (not loaded from the CMS) so it never flashes on load.
+  const hero = HOME_DEFAULTS.hero
   const S = (i) => content.sections?.[i] || HOME_DEFAULTS.sections[i]
 
   return (
