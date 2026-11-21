@@ -25,9 +25,9 @@ function useArticles() {
 
 const HOME_DEFAULTS = {
   hero: {
-    eyebrow: 'FailureSays \u00b7 Est. 2025',
-    intro: 'Startup thinking, business analysis, and lessons hidden inside failure.',
-    headlineLines: ['The harder you try', 'to avoid failure,', 'the longer it owns you.'],
+    eyebrow: 'FailureSays \u00b7 Est. 2026',
+    intro: 'Venture capital, startup strategy, and the ideas shaping modern businesses.',
+    headlineLines: ['A broken thesis', 'can teach more,', 'than the', 'successful outcome.'],
     ctaPrimaryLabel: 'Explore Wisdom', ctaPrimaryHref: '/wisdom',
     ctaSecondaryLabel: 'Read Latest', ctaSecondaryHref: '/blog',
   },
